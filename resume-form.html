@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Resume - Resume AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🚀 Resume AI</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="api/logout.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Create Your Resume</h2>
+        
+        <form id="resumeForm" action="api/ai_resume.php" method="POST">
+            <div class="form-section">
+                <h3>Personal Info</h3>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <input type="text" name="location" placeholder="City, Country">
+            </div>
+
+            <div class="form-section">
+                <h3>Professional Summary</h3>
+                <textarea name="summary" placeholder="Write a short summary about yourself (3-5 sentences)" rows="5"></textarea>
+            </div>
+
+            <div class="form-section">
+                <h3>Skills</h3>
+                <textarea name="skills" placeholder="Skills (comma separated). Example: Java, Python, SQL, AWS" rows="4"></textarea>
+            </div>
+
+            <div class="form-section">
+                <h3>Experience</h3>
+                <textarea name="experience" placeholder="Job title - Company - Duration - Achievements" rows="6"></textarea>
+            </div>
+
+            <div class="form-section">
+                <h3>Projects</h3>
+                <textarea name="projects" placeholder="Project name - Technologies - Description" rows="5"></textarea>
+            </div>
+
+            <div class="form-section">
+                <h3>Education</h3>
+                <textarea name="education" placeholder="Degree - University - Year" rows="4"></textarea>
+            </div>
+
+            <div class="form-section">
+                <label for="job_role">Target Job Role (helps AI optimize)</label>
+                <input type="text" name="job_role" id="job_role" placeholder="e.g., Senior Java Developer" required>
+            </div>
+
+            <div class="form-section">
+                <h3>Job Description (optional)</h3>
+                <textarea name="job_description" placeholder="Paste the job description or JD here to get an ATS score specific to the role" rows="6"></textarea>
+                <small style="color:#6b7280; display:block; margin-top:6px;">Optional — paste JD text to get a role-specific ATS score.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Generate Resume with AI</button>
+            <span id="loading" style="display: none; margin-left: 10px;">⏳ AI is working...</span>
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

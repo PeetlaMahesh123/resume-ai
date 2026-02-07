@@ -1,0 +1,10 @@
+New-Item -Path ".gitignore" -ItemType File -Value @"
+.env.php
+.DS_Store
+*.log
+node_modules/
+vendor/
+.vscode/
+*.swp
+*.swo
+"@ -Force
