@@ -17,6 +17,10 @@ Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 ✅ Database created!
 
 ---
+## 🚀 Final Result
+<img width="1906" height="871" alt="image" src="https://github.com/user-attachments/assets/f9880636-3deb-4e3f-a509-f00c89e8cdd3" />
+
+---
 
 ### 3. **Get OpenAI API Key**
 1. Visit: https://platform.openai.com/api-keys
