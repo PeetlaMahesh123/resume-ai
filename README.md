@@ -36,7 +36,7 @@ Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 ---
 
 ### 4. **Start XAMPP**
-- Start Apache and MySQL in XAMPP Control Panel
+
 
 ---
 
