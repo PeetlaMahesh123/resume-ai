@@ -8,13 +8,6 @@
 Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 
 ### 2. **Create Database**
-- Open: http://localhost/phpmyadmin
-- Click "New" on left
-- Database name: `resume_ai`
-- Click "Create"
-- Go to "Import" tab
-- Upload `database.sql` file
-- Click "Go"
 
 ✅ Database created!
 
