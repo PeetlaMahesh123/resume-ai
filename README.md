@@ -20,7 +20,7 @@ Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 
 ---
 ## 🚀 Final Result
-<img width="1906" height="871" alt="image" src="https://github.com/user-attachments/assets/f9880636-3deb-4e3f-a509-f00c89e8cdd3" />
+
 
 ---
 
