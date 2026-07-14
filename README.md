@@ -60,13 +60,7 @@ Open in your browser: **http://localhost/resume-ai**
 
 ## 🔑 Key Features Working
 
-✅ User Registration & Login
-✅ Resume Form Input
-✅ AI-Powered Resume Improvement (ChatGPT)
-✅ ATS Score Calculation
-✅ Resume Preview
-✅ AI Chat Assistant
-✅ PDF Export (basic)
+
 
 ---
 
