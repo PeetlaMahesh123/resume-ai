@@ -3,11 +3,6 @@
 # Resume AI - Getting Started Guide
 
 ## 🚀 Quick Setup (5 minutes)
-1. Visit: https://platform.openai.com/api-keys
-2. Click "Create new secret key"
-3. Copy the key
-4. Open `.env.php` file in the `resume-ai` folder
-5. Replace `'your-api-key-here'` with your actual key
 
 ### 1. **Move folder to XAMPP**
 Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
