@@ -8,7 +8,13 @@
 5. Replace `'your-api-key-here'` with your actual key
 
 ## 🚀 Quick Setup (5 minutes)
-
+- Open: http://localhost/phpmyadmin
+- Click "New" on left
+- Database name: `resume_ai`
+- Click "Create"
+- Go to "Import" tab
+- Upload `database.sql` file
+- Click "Go"
 ### 1. **Move folder to XAMPP**
 Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 
