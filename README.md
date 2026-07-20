@@ -31,7 +31,6 @@ Move the `resume-ai` folder to: `C:\xampp\htdocs\resume-ai`
 
 ### 3. **Get OpenAI API Key**
 
-**Important**: Never share this key!
 
 ---
 
