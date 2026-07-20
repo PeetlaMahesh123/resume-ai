@@ -1,11 +1,6 @@
 
 
 # Resume AI - Getting Started Guide
-1. Visit: https://platform.openai.com/api-keys
-2. Click "Create new secret key"
-3. Copy the key
-4. Open `.env.php` file in the `resume-ai` folder
-5. Replace `'your-api-key-here'` with your actual key
 
 ## 🚀 Quick Setup (5 minutes)
 - Open: http://localhost/phpmyadmin
